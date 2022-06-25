@@ -1,0 +1,254 @@
+#title {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/*navigation bar*/
+.navbar{
+  background-color: #ef8172;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+/*download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/*title img*/
+.Title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+/*Features*/
+#Feature-box {
+  color: #8f8f8f;
+  font-size: 1.1rem;
+  padding: 2% 0% 2%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/*hover-fa*/
+.fa-2:hover {
+  color: #ff4c68 !important;
+}
+
+.row-2 {
+  text-align: center !important;
+  margin: 5% 6% 0% 6%;
+}
+
+/*Testimonial Section*/
+#testimonial {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/*press*/
+#press {
+  background-color: #fff;
+  text-align: center;
+}
+
+.press-logo
+{
+  width: 30% !important;
+  height: 40% !important;
+  margin: 0px 20px 20px;
+}
+.carousel-item2{
+  padding: 3% 15%;
+}
+/* Pricing */
+#Pricing
+{
+  color: #8f8f8f;
+  padding: 3% 15%;
+  text-align: center;
+}
+.ph1{
+  color: #000;
+}
+.ph4{
+  color: #000;
+}
+.petimg{
+  width: 50%;
+  margin: 0% 0% 7%;
+  border-radius: 100%;
+}
+.card{
+  margin: 3% auto;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+/*Footer*/
+#footer{
+  background-color: #D3CEDF;
+  padding-top: 3%;
+}
+.download-button2{
+  margin: 1% 1% 2%;
+}
+.footer{
+  margin: 0px 0px;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 991px) {
+  .Title-img
+  {
+    margin-top: 6%;
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+  #title
+  {
+    text-align: center;
+  }
+  h2{
+    font-size: 2.1rem
+  }
+  h1
+  {
+    font-size: 2.7rem;
+  }
+  h3{
+    font-size: 1.7rem;
+  }
+  .btn{
+    font-size: 1.2rem;
+  }
+  .btn-2{
+    font-size: 1.3rem;
+  }
+  #Pricing
+  {
+    padding: 6% 18%;
+  }
+  .row-2{
+    font-size: 1rem;
+    margin: 3% 4% 0% 4%
+  }
+  p {
+    font-size: 1rem;
+  }
+  .footer
+  {
+    margin-top: 1%;
+  }
+  .top{
+    margin-bottom: 5%;
+  }
+  #Feature-box
+  {
+    padding: 2% 0% 0%;
+  }
+}
+
+@media (max-width: 572px){
+  .Title-img
+  { margin-top: 10%;
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+  #title
+  {
+    text-align: center;
+  }
+  h2{
+    font-size: 1.6rem
+  }
+  h1
+  {
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  .btn{
+    font-size: 0.9rem;
+  }
+  .btn-2{
+    font-size: 1.2rem;
+  }
+  #Pricing
+  {
+    padding: 6% 25%;
+  }
+  .row-2{
+    font-size: 0.9rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .footer
+  {
+    margin-top: 1%;
+  }
+  .top{
+    margin-bottom: 3%;
+  }
+  #Feature-box
+  {
+    padding: 2% 0% 0%;
+  }
+}
